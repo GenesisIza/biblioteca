@@ -1,7 +1,7 @@
 <?php
 
 namespace App;
-
+//este es un modelo sirve para ver como autenticar etc etc 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
