@@ -13,7 +13,7 @@ class PermisoController extends Controller
      */
     public function index()
     {
-        //
+        return view('permiso');
     }
 
     /**

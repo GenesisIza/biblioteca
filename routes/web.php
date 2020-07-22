@@ -15,4 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});     
+});
+
+Route::get('permiso', 'PermisoController@index');//el @ es para llamar metodos de un controlador.
+
