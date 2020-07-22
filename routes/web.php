@@ -17,5 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('permiso', 'PermisoController@index');//el @ es para llamar metodos de un controlador.
+Route::get('permiso/{nombre}', 'PermisoController@index');//el @ es para llamar metodos de un controlador.
+//se pueden pasar varios parametros permiso/{nombre}/{slug?} obs: slug es un parametro opcional.
 

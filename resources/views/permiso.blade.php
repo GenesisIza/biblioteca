@@ -1,1 +1,1 @@
-Sistema de permisos
+Sistema de permisos {{$nombre}}
