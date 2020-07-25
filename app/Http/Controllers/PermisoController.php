@@ -11,11 +11,18 @@ class PermisoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index($nombre)
+
+    //EJEMPLO DE PASO DE VARIABLES
+    /* public function index($nombre)
     {
         return view('permiso', compact('nombre'));//compact es para pasar variables de la funcion del api a la vista.
-    } 
+    }  */
+    //AQUI TERMINA
 
+    public function index()
+    {
+        return view('permiso'); //compact es para pasar variables de la funcion del api a la vista.
+    }  
     /**
      * Show the form for creating a new resource.
      *
